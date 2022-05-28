@@ -9,6 +9,7 @@
 .header h2 {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 800;
 }
 a {
     text-decoration: none;
@@ -63,10 +64,31 @@ button {
 .info h2 {
     text-align: center;
     font-size: 36px;
+    font-weight: 800;
 }
 .info .images {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 25px;
+}
+.quote .content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 600px;
+}
+.quote .author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 }
