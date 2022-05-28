@@ -30,7 +30,6 @@ ul {
 }
 .main {
     background-color: #1F2937;
-    color: #E5E7EB;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -40,6 +39,7 @@ ul {
     width: 360px;
     font-size: 18px;
     margin: 10px;
+    color: #E5E7EB;
 }
 button {
     background-color: #3882f6;
@@ -91,4 +91,19 @@ button {
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+}
+.action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 15px;
+}
+.action .action-text h3{
+    margin: 0px;
+    padding: 0px;
+}
+.action .action-text {
+    color: #E5E7EB;
 }
