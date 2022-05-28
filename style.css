@@ -107,3 +107,9 @@ button {
 .action .action-text {
     color: #E5E7EB;
 }
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
